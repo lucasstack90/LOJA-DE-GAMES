@@ -35,4 +35,4 @@ Algumas seções ainda estão sendo construídas e o layout passará por ajustes
 
 1. Baixe ou clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   lucasstack90.github.io/LOJA-DE-GAMES/
