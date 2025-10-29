@@ -44,7 +44,10 @@ img{
 .btn{
     color: white;
 }
-.eita{
-    position: relative;
-    left: -800px;
+.imagem-header{
+  width: 200px;      /* tamanho da imagem */
+  height: auto;
+  object-fit: contain;
+  position: relative; /* mantém dentro do fluxo normal */
+  top: 25px;
 }
