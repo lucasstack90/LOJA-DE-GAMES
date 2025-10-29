@@ -1,0 +1,50 @@
+.menu{
+    background:black;
+}
+footer{
+    background-color: rgb(152, 165, 165);
+}
+
+.efeito{
+    color: white;
+}
+
+.efeito:hover{
+    color: rgb(154, 7, 37);
+    font-size: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    font-size: 0;
+}
+
+.h2{
+    text-align: center;
+    margin: 35px;
+    color: white;
+}
+.p{
+    text-align: center;
+    color: white;
+}
+.card{
+    background-color: #282828;
+    color: white;
+}
+
+.card p{
+    color: rgb(154, 7, 37);
+}
+
+.btn{
+    color: white;
+}
+.eita{
+    position: relative;
+    left: -800px;
+}
