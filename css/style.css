@@ -168,3 +168,35 @@ img{
   color: #ffffff;
   transform: scale(1.2);
 }
+
+.bg-gamer {
+    background-color: black;
+  }
+
+  .content {
+    position: relative; 
+    z-index: 2;
+    color: white;
+  }
+
+  .highlight {
+    color: #6C63FF !important; /* cor neon gamer */
+  }
+
+  .neon-box {
+    background: rgba(255,255,255,0.07);
+    border-radius: 14px;
+    padding: 20px;
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+
+  .neon-box:hover {
+    background: rgba(255,255,255,0.14);
+    transform: scale(1.05);
+  }
+
+
+  .neon-btn:hover {
+    background-color: #554dff;
+  }
