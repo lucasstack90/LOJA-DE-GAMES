@@ -96,29 +96,10 @@ img {
   transform: scale(1.1); /* aumenta a imagem */
 }
 
-
 img{
     font-size: 0;
 }
 
-.h2{
-    text-align: center;
-    margin: 35px;
-    color: white;
-}
-
-.card{
-    background-color: #282828;
-    color: white;
-}
-
-.card p{
-    color: rgb(154, 7, 37);
-}
-
-.btn{
-    color: white;
-}
 .imagem-header{
   width: 200px;      /* tamanho da imagem */
   height: auto;
