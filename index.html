@@ -127,48 +127,113 @@
 
 <br>
 
-<section>
+<section class="py-5 bloco-gamer">
+  <div class="container">
 
-<div class="container my-4">
+    <!-- TÍTULO -->
+    <div class="row mb-4">
+      <div class="col text-center">
+        <h2 class="titulo-gamer">Confira no SuperGame</h2>
+      </div>
+    </div>
 
-  <div class="col-6 col-md-3 start">
-    <h2 class="text-secondary">Confira no SuperGame</h2>
+    <!-- GRID DOS PRODUTOS -->
+    <div class="row g-4 text-center">
+
+      <div class="col-6 col-md-3 card-gamer">
+        <img src="img-Opções/console_nintendo-Photoroom.png" class="img-gamer" alt="Nintendo">
+        <h3 class="nome-gamer">Nintendo</h3>
+      </div>
+
+      <div class="col-6 col-md-3 card-gamer">
+        <img src="img-Opções/Play2-Photoroom.png" class="img-gamer" alt="Playstation 2">
+        <h3 class="nome-gamer">Playstation 2</h3>
+      </div>
+
+      <div class="col-6 col-md-3 card-gamer">
+        <img src="img-Opções/Play5-Photoroom.png" class="img-gamer" alt="Playstation 5">
+        <h3 class="nome-gamer">Playstation 5</h3>
+      </div>
+
+      <div class="col-6 col-md-3 card-gamer">
+        <img src="img-Opções/Xbox 360-Photoroom.png" class="img-gamer" alt="Xbox 360">
+        <h3 class="nome-gamer">Xbox 360</h3>
+      </div>
+
+    </div>
+
   </div>
-
-  <div class="row g-3 text-center">
-
-    <div class="col-6 col-md-3">
-      <img src="img-Opções/console_nintendo-Photoroom.png" class="img-miniatura" alt="img1">
-      <h3>Nintendo </h3>
-    </div>
-
-    <div class="col-6 col-md-3">
-      <img src="img-Opções/Play2-Photoroom.png" class="img-miniatura" alt="img2">
-      <h3>Playstation2</h3>
-    </div>
-
-    <div class="col-6 col-md-3">
-      <img src="img-Opções/Play5-Photoroom.png" class="img-miniatura" alt="img3">
-      <h3>Playstation5</h3>
-    </div>
-
-    <div class="col-6 col-md-3">
-      <img src="img-Opções/Xbox 360-Photoroom.png" class="img-miniatura" alt="img4">
-      <h3>Xbox360</h3>
-    </div>
-
-  </div>
-</div>
-
 </section>
 
+<style>
+  /* Fundo gamer escuro */
+.bloco-gamer {
+  background: #0a0a0f;
+  padding: 50px 0;
+}
+
+/* Título gamer roxo neon */
+.titulo-gamer {
+  color: #a855f7; /* roxo neon */
+  font-weight: 700;
+  text-shadow: 0 0 10px #9d4edd;
+}
+
+/* Card gamer */
+.card-gamer {
+  padding: 20px;
+  border-radius: 12px;
+  background: #11111a;
+  transition: 0.3s ease;
+  border: 1px solid #2a2a35;
+}
+
+/* Efeito no card ao passar o mouse */
+.card-gamer:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px #8b5cf6;
+  border-color: #a855f7;
+}
+
+/* Imagens + hover que você pediu */
+.img-gamer {
+  width: 100%;
+  max-width: 140px;
+  transition: transform .3s ease, filter .3s ease;
+  filter: brightness(0.9);
+}
+
+.card-gamer:hover .img-gamer {
+  transform: scale(1.08);
+  filter: brightness(1.2);
+}
+
+/* Nome abaixo das imagens */
+.nome-gamer {
+  margin-top: 10px;
+  color: #d4d4d8;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+</style>
 
 
 
 <div>
   <h2 class="h2">Aproveite os nossos produtos</h2>
-  <p class="p">confira nossos produtos abaixo</p>
+  <h4 class="p1">confira nossos produtos abaixo:</h4>
 </div>
+
+<style>
+  .p1{
+    color: white;
+    text-align: center;
+    margin-top: -25px ;
+  }
+</style>
+
+<br>
 
   <section id="#jogos">
     <div class="container">
